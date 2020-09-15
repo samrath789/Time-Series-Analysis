@@ -1,5 +1,4 @@
 # Time-Series-Analysis
-Time Series Analysis and Modeling with the Air Passengers Dataset.
 <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Random-data-plus-trend-r2.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
