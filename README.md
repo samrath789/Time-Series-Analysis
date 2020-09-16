@@ -38,7 +38,7 @@ forecast, ggplot2, tseries, summarytools.
  ### Decomposition of data
   <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(52).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
      
  We will decompose the time series for estimates of trend, seasonal, and random components using moving average method.
  
