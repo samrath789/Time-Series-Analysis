@@ -58,6 +58,10 @@ forecast, ggplot2, tseries, summarytools.
       width="600" height="500" />
      
   Since there is an upwards trend we will look at a linear model first for comparison. We plot AirPassengers raw dataset with a blue linear model.
+  
+  This may not be the best model to fit as it doesn’t capture the seasonality and multiplicative effects over time.
+  
+  Hence ARIMA Model is used that fits well. 
      
      
  ### Calculating Forecasts
