@@ -17,3 +17,54 @@ forecast, ggplot2, tseries, summarytools.
 3. Test the stationarity
 4. Fit a model used an automated algorithm
 5. Calculate forecasts
+
+
+### EDA
+
+<img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(55).png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+ <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(53).png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+     
+     
+ From these exploratory plots, we can make some initial inferences:
+
+1. The passenger numbers increase over time with each year which may be indicative of an increasing linear trend, perhaps due to increasing demand for flight travel and commercialisation of airlines in that time period.
+2. In the boxplot there are more passengers travelling in months 6 to 9 with higher means and higher variances than the other months, indicating seasonality with a apparent cycle of 12 months. The rationale for this could be more people taking holidays and fly over the summer months in the US.
+3. AirPassengers appears to be multiplicative time series as the passenger numbers increase, it appears so does the pattern of seasonality.
+4. There do not appear to be any outliers and there are no missing values. Therefore no data cleaning is required.
+ ### Decomposition of data
+  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(52).png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+     
+ We will decompose the time series for estimates of trend, seasonal, and random components using moving average method.
+ 
+ ### Testing Stationarity
+ A stationary time series has the conditions that the mean, variance and covariance are not functions of time. In order to fit arima models, the time series is required to be stationary.
+ 
+   <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+
+   <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+     
+ 
+ ### Fit a time series model
+  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(54).png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+     
+  Since there is an upwards trend we will look at a linear model first for comparison. We plot AirPassengers raw dataset with a blue linear model.
+     
+     
+ ### Calculating Forecasts
+ <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(51).png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />    
+     
+To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast. It is a good basis to move on to more complicated time series datasets, models and comparisons in R.
