@@ -24,10 +24,11 @@ forecast, ggplot2, tseries, summarytools.
 <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(55).png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" 
-     width="700" height="600"/>
+     width="600" height="500"/>
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(53).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;"
+      width="600" height="500"/>
      
      
  From these exploratory plots, we can make some initial inferences:
@@ -39,17 +40,22 @@ forecast, ggplot2, tseries, summarytools.
  ### Decomposition of data
   <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(52).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" 
+      width="600" height="500"/>
      
  We will decompose the time series for estimates of trend, seasonal, and random components using moving average method.
  
  ### Testing Stationarity
  A stationary time series has the conditions that the mean, variance and covariance are not functions of time. In order to fit arima models, the time series is required to be stationary.
  
+ 
+ 
+ 
  ### Fit a time series model
   <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(54).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;"
+      width="600" height="500" />
      
   Since there is an upwards trend we will look at a linear model first for comparison. We plot AirPassengers raw dataset with a blue linear model.
      
@@ -58,6 +64,6 @@ forecast, ggplot2, tseries, summarytools.
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(51).png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;"
-     width="200" height="121"/>    
+     width="600" height="500"/>    
      
 To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast. It is a good basis to move on to more complicated time series datasets, models and comparisons in R.
