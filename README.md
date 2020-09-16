@@ -10,7 +10,7 @@ A time series is simply a series of data points ordered in time. In a time serie
 ## Tools used
 This Project is made in R.
 #### Libraries Used
-forecast,ggplot2,tseries,summarytools
+forecast, ggplot2, tseries, summarytools.
 ## Synopsis
 1. Perform exploratory data analysis
 2. Decomposition of data
