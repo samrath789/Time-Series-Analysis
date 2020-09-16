@@ -24,7 +24,7 @@ forecast, ggplot2, tseries, summarytools.
 <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(55).png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" 
-     width="200" height="121"/>
+     width="800" height="800"/>
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(53).png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
