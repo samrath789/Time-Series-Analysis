@@ -70,4 +70,5 @@ forecast, ggplot2, tseries, summarytools.
      style="float: left; margin-right: 10px;"
      width="600" height="500"/>    
      
-To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast. It is a good basis to move on to more complicated time series datasets, models and comparisons in R.
+To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast.
+We have done the time series analysis and calculated forecasts using AirPassengers dataset.
