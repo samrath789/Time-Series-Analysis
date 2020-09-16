@@ -23,7 +23,8 @@ forecast, ggplot2, tseries, summarytools.
 
 <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(55).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" 
+     width="200" height="121"/>
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(53).png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
@@ -45,17 +46,6 @@ forecast, ggplot2, tseries, summarytools.
  ### Testing Stationarity
  A stationary time series has the conditions that the mean, variance and covariance are not functions of time. In order to fit arima models, the time series is required to be stationary.
  
-   <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta1.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-
-
-
-   <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta2.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-     
- 
  ### Fit a time series model
   <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(54).png"
      alt="Markdown Monster icon"
@@ -67,6 +57,7 @@ forecast, ggplot2, tseries, summarytools.
  ### Calculating Forecasts
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(51).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />    
+     style="float: left; margin-right: 10px;"
+     width="200" height="121"/>    
      
 To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast. It is a good basis to move on to more complicated time series datasets, models and comparisons in R.
