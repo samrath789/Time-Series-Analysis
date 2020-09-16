@@ -23,10 +23,10 @@ forecast, ggplot2, tseries, summarytools.
 
 <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(55).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(53).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
      
      
  From these exploratory plots, we can make some initial inferences:
@@ -47,17 +47,19 @@ forecast, ggplot2, tseries, summarytools.
  
    <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta1.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
+
+
 
    <img src=" https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Sta2.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
      
  
  ### Fit a time series model
   <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(54).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />
+     style="float: left; margin-right: 10px;" />
      
   Since there is an upwards trend we will look at a linear model first for comparison. We plot AirPassengers raw dataset with a blue linear model.
      
@@ -65,6 +67,6 @@ forecast, ggplot2, tseries, summarytools.
  ### Calculating Forecasts
  <img src="https://github.com/samrath789/Time-Series-Analysis/blob/master/Screenshots/Screenshot%20(51).png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px;" />    
+     style="float: left; margin-right: 10px;" />    
      
 To summarize, this has been an exercise in ARIMA modeling and using time series R packages ggfortify, tseries and forecast. It is a good basis to move on to more complicated time series datasets, models and comparisons in R.
